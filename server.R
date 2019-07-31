@@ -39,10 +39,10 @@ shinyServer(function(input, output,session) {
   
      if(input$Vars == "Cancer Type") {
         y<- aggregate(Survival.Rate ~ Cancer.Type,data =cancerData, FUN= mean)
-        colnames(y)<-c("Cancer Type","Survival Rate")
+        colnames(y)<-c("Cancer Type","Mean Survival Rate")
         y}
         else{x<-aggregate(formula(paste0("Survival.Rate ~ ", input$Vars)), data =cancerData, FUN= mean)
-            colnames(x)<-c(input$Vars,"Survival Rate")
+            colnames(x)<-c(input$Vars,"Mean Survival Rate")
              x}
   })
   
