@@ -43,7 +43,7 @@ shinyUI(dashboardPage(skin = "red",
                                              This results from the combination of both early detection and improved treatment."),
                                          a("Link for more available information", href="https://ourworldindata.org/cancer")
                                          ),
-                                   column(6,
+                                  column(6,
                                     box(background = "blue",width = 50,
                                         h5("This app invloves three modeling methods,which are PCA analysis,random forest and boosting.
                                            Regarding PCA analysis, it helps look for linear combinations of variables that accounts for as 
@@ -51,9 +51,11 @@ shinyUI(dashboardPage(skin = "red",
                                            version of bagging) inputs tree plots showing the classification of variables. In addition,boosting 
                                            simulated here for making predictions of `five-year survival rate` based on four predictors that 
                                            are year,race,gender and cancer type" )
-                                         
-                                         )    
-                                     )
+                                          
+                                          
+                                    )
+                                    
+                                  )
                               ),
                       
                       tabItem(tabName = "dataexp",
