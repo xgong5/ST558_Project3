@@ -42,7 +42,15 @@ shinyUI(dashboardPage(skin = "red",
                                              Overall we see that survival rates from all cancers have increased from 50 to 67 percent. 
                                              This results from the combination of both early detection and improved treatment."),
                                          a("Link for more available information", href="https://ourworldindata.org/cancer")
-                                         )
+                                         ),
+                                   column(6,
+                                    box(background = "blue",width = 50,
+                                        h5("This app invloves three modeling methods,which are PCA analysis,random forest and boosting.
+                                           Regarding PCA analysis, it helps look for linear combinations of variables that accounts for as 
+                                           much variability as possible. With respect to supervised learning models,random forest(extended
+                                           version of bagging) inputs tree plots showing the classification of variables. In addition,boosting 
+                                           simulated here for making predictions of `five-year survival rate` based on four predictors that 
+                                           are year,race,gender and cancer type" )
                                          
                                          )    
                                      )
