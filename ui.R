@@ -1,6 +1,7 @@
 library(shiny)
 library(tidyverse)
 library(shinydashboard)
+library(plotly)
 
 #read the data
 cancerData<-read_csv("C:\\Users\\X-Gong\\Documents\\ST558\\Project3\\Five Year Cancer Survival Rates in USA.csv",col_types = cols(
