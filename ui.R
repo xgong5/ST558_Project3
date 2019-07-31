@@ -47,7 +47,7 @@ shinyUI(dashboardPage(skin = "red",
                                          ),
                                   column(6,
                                     box(background = "blue",width = 50,
-                                        h5("This app invloves three modeling methods,which are PCA analysis,random forest and boosting.
+                                        h5("This app displays some basic numerical and graphical summaries and more importantly, it invloves three modeling methods,which are PCA analysis,random forest and boosting.
                                            Regarding PCA analysis, it helps look for linear combinations of variables that accounts for as 
                                            much variability as possible. With respect to supervised learning models,random forest(extended
                                            version of bagging) inputs tree plots showing the classification of variables. In addition,boosting 
