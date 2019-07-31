@@ -51,8 +51,8 @@ shinyUI(dashboardPage(skin = "red",
                                            Regarding PCA analysis, it helps look for linear combinations of variables that accounts for as 
                                            much variability as possible. With respect to supervised learning models,random forest(extended
                                            version of bagging) inputs tree plots showing the classification of variables. In addition,boosting 
-                                           simulated here for making predictions of `five-year survival rate` based on four predictors that 
-                                           are year,race,gender and cancer type" )
+                                           simulated here is for making predictions of `five-year survival rate` based on four predictors that 
+                                           are year,race,gender and cancer type." )
                                           
                                           
                                     )
