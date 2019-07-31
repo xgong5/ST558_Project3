@@ -181,7 +181,7 @@ shinyServer(function(input, output,session) {
   
   #dynamic ui for boosting
   output$bstVars<- renderUI({
-    paste("Variables chosen for boosting tree are: ",input$Year, input$Race, input$Gender, input$`Cancer Type`,seq='')
+    paste("Variables chosen for boosting tree are: ",input$Year,",",input$Race,",",input$Gender,",",input$`Cancer Type`)
     
   })
   
